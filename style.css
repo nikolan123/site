@@ -1,0 +1,129 @@
+:root {
+    --link-row-hover-bg: rgba(151, 131, 64, 0.1);
+    --a-color: rgb(223, 218, 120);
+    --details-background: rgba(151, 129, 64, 0.1);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 650px;
+    margin: auto;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: var(--a-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    filter: brightness(1.2);
+}
+
+.buttons img {
+    width: 88px;
+    height: 31px;
+    image-rendering: pixelated;
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttons img:hover {
+    transform: scale(1.1);
+    outline: 1px solid white;
+}
+
+.webring {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.link-row {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    /* cursor: pointer; */
+    padding: 2px 0;
+}
+
+.link-row:hover {
+    background-color: var(--link-row-hover-bg);
+}
+
+.links .label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+details {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--details-background);
+    border-radius: 5px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+#radioImage {
+    max-width: 55%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.subtext {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .links {
+        gap: 5px;
+    }
+
+    #radioImage {
+        max-width: 100%;
+        margin: 15px auto;
+    }
+
+    details {
+        padding: 12px;
+    }
+}
