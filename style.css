@@ -98,6 +98,41 @@ summary {
     display: block;
 }
 
+.project-section {
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: var(--details-background);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.project-section img {
+    max-width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.project-section p {
+    margin: 0 0 5px 0;
+    font-size: 0.95em;
+}
+
+.project-links {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+}
+
 .subtext {
     font-size: 0.9em;
     color: rgba(255, 255, 255, 0.7);
