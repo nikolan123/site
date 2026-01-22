@@ -136,6 +136,18 @@ const games = {
     "store": "https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/",
     "steamdb": "https://steamdb.info/app/258520/info/",
     "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/258520/d2e02ce83cbcb621e3c6349fd9ecc68c1ef8550d.ico"
+  },
+  "far cry 3": {
+    "name": "Far Cry 3",
+    "store": "https://store.steampowered.com/app/220240/Far_Cry_3/",
+    "steamdb": "https://steamdb.info/app/220240/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/220240/ca96388ee5c05a5066e50dc580fabb23fba5d3da.ico"
+  },
+  "far cry 4": {
+    "name": "Far Cry 4",
+    "store": "https://store.steampowered.com/app/298110/Far_Cry_4/",
+    "steamdb": "https://steamdb.info/app/298110/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/298110/76e7caadac900eefe62e7288ca139819e157cd3b.ico"
   }
 };
 
