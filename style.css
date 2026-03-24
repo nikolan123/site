@@ -2,6 +2,7 @@
     --link-row-hover-bg: rgba(151, 131, 64, 0.1);
     --a-color: rgb(223, 218, 120);
     --details-background: rgba(151, 129, 64, 0.15);
+    --details-hover-background: rgba(151, 129, 64, 0.2);
 }
 
 body {
@@ -21,6 +22,7 @@ h1 {
 a {
     color: var(--a-color);
     text-decoration: underline;
+    transition: filter 0.2s ease;
 }
 
 a:hover {
@@ -56,6 +58,7 @@ a:hover {
     gap: 5px;
     /* cursor: pointer; */
     padding: 2px 0;
+    transition: background-color 0.2s ease;
 }
 
 .link-row:hover {
@@ -84,10 +87,33 @@ details {
     padding: 10px;
     background-color: var(--details-background);
     border-radius: 12px;
+    transition: background-color 0.2s ease;
+}
+
+details:not([open]):hover {
+    background-color: var(--details-hover-background);
 }
 
 summary {
     cursor: pointer;
+}
+
+details[open] summary {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+details p,
+details .project-section,
+details h4 {
+    transition: opacity 0.3s ease;
+}
+
+details:not([open]) p,
+details:not([open]) .project-section,
+details:not([open]) h4 {
+    opacity: 0;
 }
 
 #radioImage {
@@ -106,6 +132,11 @@ summary {
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.project-section:hover {
+    background-color: var(--details-hover-background);
 }
 
 .project-content {
@@ -222,6 +253,11 @@ details .project-subsection {
     align-items: center;
     gap: 6px;
     border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.game:hover {
+    background-color: rgb(128, 128, 128, 0.3);
 }
 
 .game p {

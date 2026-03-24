@@ -3,17 +3,20 @@
         { src: '/resources/backgrounds/act1.webm', colors: { 
             '--link-row-hover-bg': 'rgba(35, 42, 50, 0.1)', 
             '--a-color': 'rgb(191, 176, 128)', 
-            '--details-background': 'rgba(35, 42, 50, 0.457)' 
+            '--details-background': 'rgba(35, 42, 50, 0.457)',
+            '--details-hover-background': 'rgba(35, 42, 50, 0.6)'
         }},
         { src: '/resources/backgrounds/act2.webm', colors: { 
             '--link-row-hover-bg': 'rgba(151, 121, 64, 0.1)', 
             '--a-color': 'rgb(223, 187, 120)', 
-            '--details-background': 'rgba(151, 115, 64, 0.15)' 
+            '--details-background': 'rgba(151, 115, 64, 0.15)',
+            '--details-hover-background': 'rgba(151, 115, 64, 0.2)'
         }},
         { src: '/resources/backgrounds/act3.webm', colors: { 
             '--link-row-hover-bg': 'rgba(64, 78, 151, 0.1)', 
             '--a-color': 'rgba(124, 137, 197, 1)', 
-            '--details-background': 'rgba(57, 68, 117, 0.15)' 
+            '--details-background': 'rgba(57, 68, 117, 0.15)',
+            '--details-hover-background': 'rgba(57, 68, 117, 0.2)'
         }},
     ];
 
