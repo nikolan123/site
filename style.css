@@ -1,7 +1,7 @@
 :root {
     --link-row-hover-bg: rgba(151, 131, 64, 0.1);
     --a-color: rgb(223, 218, 120);
-    --details-background: rgba(151, 129, 64, 0.1);
+    --details-background: rgba(151, 129, 64, 0.15);
 }
 
 body {
@@ -83,7 +83,7 @@ details {
     margin-bottom: 10px;
     padding: 10px;
     background-color: var(--details-background);
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 summary {
@@ -94,7 +94,7 @@ summary {
     max-width: 55%;
     height: auto;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 12px;
     display: block;
 }
 
@@ -102,7 +102,7 @@ summary {
     margin-bottom: 15px;
     padding: 8px;
     background-color: var(--details-background);
-    border-radius: 5px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -130,7 +130,7 @@ summary {
     flex-shrink: 0;
     margin-right: 12px;
     background: rgba(255, 255, 255, 0.05);
-    border-radius: 6px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
 }
@@ -221,7 +221,7 @@ details .project-subsection {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .game p {
