@@ -148,6 +148,30 @@ const games = {
     "store": "https://store.steampowered.com/app/298110/Far_Cry_4/",
     "steamdb": "https://steamdb.info/app/298110/info/",
     "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/298110/76e7caadac900eefe62e7288ca139819e157cd3b.ico"
+  },
+    "thief": {
+    "name": "Thief 2014",
+    "store": "https://store.steampowered.com/app/239160/Thief/",
+    "steamdb": "https://steamdb.info/app/239160/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/239160/ddd5e7990295af27c9e8e03689af89f11e32f2df.ico"
+  },
+    "heavy rain": {
+    "name": "Heavy Rain",
+    "store": "https://store.steampowered.com/app/960910/Heavy_Rain/",
+    "steamdb": "https://steamdb.info/app/960910/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/960910/44d0ea98a7fe46518fe9e6c2ed6da4f3acba6dbd.ico"
+  },
+    "the division 2": {
+    "name": "The Division 2",
+    "store": "https://store.steampowered.com/app/2221490/Tom_Clancys_The_Division_2/",
+    "steamdb": "https://steamdb.info/app/2221490/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2221490/84016dcdbc7b3ebe91e64730691ed324124c468a.ico"
+  },
+    "it takes two": {
+    "name": "It Takes Two",
+    "store": "https://store.steampowered.com/app/1426210/It_Takes_Two/",
+    "steamdb": "https://steamdb.info/app/1426210/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1426210/323a899705796f44d4a95c4e22094dd6f28fb442.ico"
   }
 };
 
