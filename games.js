@@ -172,6 +172,12 @@ const games = {
     "store": "https://store.steampowered.com/app/1426210/It_Takes_Two/",
     "steamdb": "https://steamdb.info/app/1426210/info/",
     "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/1426210/323a899705796f44d4a95c4e22094dd6f28fb442.ico"
+  },
+    "the walking dead": {
+    "name": "The Walking Dead",
+    "store": "https://store.steampowered.com/app/207610/The_Walking_Dead/",
+    "steamdb": "https://steamdb.info/app/207610/info/",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/207610/b27ec76b0f59e1b3a3f784461d47df6028ced615.ico"
   }
 };
 
