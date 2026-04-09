@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipole Length Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/dipole/dipole.css">
+</head>
+
+<body>
+    <h1>Dipole Antenna Calculator</h1>
+
+    <div class="project-section">
+        <div class="project-content">
+            <p>Enter frequency (MHz):</p>
+            <input type="number" id="freqInput" placeholder="e.g. 433" step="0.01">
+
+            <div class="project-links">
+                <button onclick="calculate()">Calculate</button>
+            </div>
+
+            <pre id="result" class="subtext"></pre>
+        </div>
+    </div>
+
+    <script src="/dipole/dipole.js"></script>
+</body>
+</html>

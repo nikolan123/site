@@ -1,0 +1,48 @@
+input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: black;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    font-family: inherit;
+    border-radius: 6px;
+}
+
+button {
+    background-color: var(--details-background);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--details-hover-background);
+}
+
+pre {
+    line-height: 1.2;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.top {
+    color: #4aa3ff; /* blue */
+}
+
+.bottom {
+    color: #ff5555; /* red */
+}
+
+.feed {
+    color: white;
+}
+
+.label {
+    color: rgba(255,255,255,0.7);
+}
