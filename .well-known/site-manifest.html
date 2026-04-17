@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signed Site Manifest - Niko</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <p><a href="/">Back to homepage</a></p>
+    <h1>Signed Site Manifest</h1>
+    <p>Download this HTML page, its <code>.asc</code> signature, and my public key. Then run the import and verify commands below. If GPG says the signature is good, this version of my website was signed by my key and the checksums here can be trusted.</p>
+
+    <div class="identity-card">
+        <h3 class="section-title">Manifest Metadata</h3>
+        <p class="identity-tech"><b>Generated (UTC):</b> <code>2026-04-17T21:02:47Z</code></p>
+        <p class="identity-tech"><b>Commit:</b> <a href="https://github.com/nikolan123/site/commit/58819460bc30"><code>58819460bc30</code></a></p>
+        <p class="identity-tech"><b>Signing key input:</b> <code>2F0C2EE41F8930C2A2978DE5ABF7C08F4B406C2E</code></p>
+        <div class="identity-links">
+            <a class="identity-download" href="/.well-known/site-manifest.html" download="site-manifest.html">Download This HTML Manifest</a>
+            <a class="identity-download" href="/.well-known/site-manifest.html.asc" download="site-manifest.html.asc">Download HTML Signature</a>
+            <a class="identity-download" href="/.well-known/pgp-key.txt" download="nikolan-pub.asc">Download PGP Public Key</a>
+        </div>
+    </div>
+
+    <div class="identity-card">
+        <h3 class="section-title">SHA256 Checksums</h3>
+        <table class="manifest-table">
+            <thead>
+                <tr>
+                    <th>File</th>
+                    <th>SHA256</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr><td><code>index.html</code></td><td><code>353c7b778e3b6dc3ca87627b0585c6faff0c193469398a4a11c193dacf7e7d6a</code></td></tr>
+            <tr><td><code>style.css</code></td><td><code>36ac48fd6e19bfe59fabb772eb7ae90abc93b47f9dc5a6bd17e0d8f5cf0df8eb</code></td></tr>
+            <tr><td><code>games.js</code></td><td><code>6fb45cc224513cceeee0b44a017065ea732ae600aa06510ceeec8d0a040c73e6</code></td></tr>
+            <tr><td><code>videobg.js</code></td><td><code>b5d783923da17a36c319446f8b12e59b7941bb70b9a2f42a08c2a5e37ee32077</code></td></tr>
+            <tr><td><code>.well-known/pgp-key.txt</code></td><td><code>cfcbca19e4366742fc9a0bffe572b067dcc935037e0edd07e8fb660432174811</code></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="identity-card">
+        <h3 class="section-title">Import Key</h3>
+        <p class="identity-tech"><code>gpg --import nikolan-pub.asc</code></p>
+    </div>
+
+    <div class="identity-card">
+        <h3 class="section-title">Verify Signature</h3>
+        <p class="identity-tech"><code>gpg --verify site-manifest.html.asc site-manifest.html</code></p>
+    </div>
+</body>
+
+</html>
