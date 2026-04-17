@@ -340,17 +340,19 @@ details .project-subsection {
     text-decoration: none;
     color: white;
     background-color: rgb(128, 128, 128, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 4px 8px;
     margin: 4px;
     display: inline-flex;
     align-items: center;
     gap: 6px;
     border-radius: 8px;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .game:hover {
     background-color: rgb(128, 128, 128, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .game p {
