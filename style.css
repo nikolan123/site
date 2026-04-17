@@ -1,8 +1,8 @@
 :root {
-    --link-row-hover-bg: rgba(151, 131, 64, 0.1);
-    --a-color: rgb(223, 218, 120);
-    --details-background: rgba(151, 129, 64, 0.15);
-    --details-hover-background: rgba(151, 129, 64, 0.2);
+    --link-row-hover-bg: rgba(64, 102, 151, 0.1);
+    --a-color: rgb(120, 151, 223);
+    --details-background: rgba(64, 89, 151, 0.15);
+    --details-hover-background: rgba(57, 68, 136, 0.2);
 }
 
 body {
@@ -80,6 +80,99 @@ a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 5px;
     font-size: 1.2em;
+}
+
+.identity-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: var(--details-background);
+    transition: background-color 0.2s ease;
+}
+
+.identity-card:hover {
+    background-color: var(--details-hover-background);
+}
+
+.identity-card .section-title {
+    margin-top: 0;
+}
+
+.identity-intro {
+    margin: 0 0 6px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.identity-title {
+    margin: 0 0 6px;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+}
+
+.identity-tech {
+    margin: 0 0 6px;
+    font-size: 0.9em;
+}
+
+.identity-tech code {
+    overflow-wrap: anywhere;
+}
+
+.identity-links {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.identity-download {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(128, 128, 128, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 0.92em;
+    line-height: 1.2;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.identity-download:hover {
+    background-color: rgb(128, 128, 128, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.identity-view {
+    display: inline-block;
+    width: fit-content;
+    opacity: 0.85;
+    font-size: 0.86em;
+}
+
+.manifest-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88em;
+}
+
+.manifest-table th,
+.manifest-table td {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.manifest-table th {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.manifest-table code {
+    overflow-wrap: anywhere;
 }
 
 details {
