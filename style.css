@@ -230,18 +230,6 @@ details[open] summary {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-details p,
-details .project-section,
-details h4 {
-    transition: opacity 0.3s ease;
-}
-
-details:not([open]) p,
-details:not([open]) .project-section,
-details:not([open]) h4 {
-    opacity: 0;
-}
-
 #radioImage {
     max-width: 55%;
     height: auto;
