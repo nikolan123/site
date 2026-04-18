@@ -52,6 +52,39 @@ a:hover {
     gap: 0px;
 }
 
+.socials-extra {
+    margin-top: 6px;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    transition: none;
+}
+
+.socials-extra > summary {
+    display: list-item;
+    list-style-position: inside;
+    width: fit-content;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.9em;
+    opacity: 1;
+    transition: none;
+}
+
+.socials-extra:not([open]):hover {
+    background-color: transparent;
+}
+
+.socials-extra:not([open]):hover > summary {
+    background-color: transparent;
+}
+
+.socials-extra[open] > summary {
+    margin-bottom: 8px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
 .link-row {
     display: flex;
     align-items: baseline;
