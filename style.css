@@ -15,6 +15,13 @@ body {
     overflow-y: scroll;
 }
 
+body.static-high-contrast {
+    --link-row-hover-bg: rgba(255, 255, 255, 0.16);
+    --a-color: rgb(166, 202, 255);
+    --details-background: rgba(64, 64, 64, 0.34);
+    --details-hover-background: rgba(80, 80, 80, 0.44);
+}
+
 h1 {
     text-align: center;
 }
