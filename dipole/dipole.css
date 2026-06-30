@@ -23,6 +23,7 @@ button {
 
 button:hover {
     background-color: var(--details-hover-background);
+    transition: none;
 }
 
 pre {

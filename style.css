@@ -34,6 +34,7 @@ a {
 
 a:hover {
     filter: brightness(1.2);
+    transition: none;
 }
 
 .buttons img {
@@ -46,6 +47,7 @@ a:hover {
 .buttons img:hover {
     transform: scale(1.1);
     outline: 1px solid white;
+    transition: none;
 }
 
 .webring {
@@ -103,6 +105,7 @@ a:hover {
 
 .link-row:hover {
     background-color: var(--link-row-hover-bg);
+    transition: none;
 }
 
 .links .label {
@@ -132,6 +135,7 @@ a:hover {
 
 .identity-card:hover {
     background-color: var(--details-hover-background);
+    transition: none;
 }
 
 .identity-card .section-title {
@@ -184,6 +188,7 @@ a:hover {
 .identity-download:hover {
     background-color: rgb(128, 128, 128, 0.3);
     border-color: rgba(255, 255, 255, 0.2);
+    transition: none;
 }
 
 .identity-view {
@@ -225,6 +230,7 @@ details {
 
 details:not([open]):hover {
     background-color: var(--details-hover-background);
+    transition: none;
 }
 
 summary {
@@ -258,6 +264,7 @@ details[open] summary {
 
 .project-section:hover {
     background-color: var(--details-hover-background);
+    transition: none;
 }
 
 .project-content {
@@ -381,6 +388,7 @@ details .project-subsection {
 .game:hover {
     background-color: rgb(128, 128, 128, 0.3);
     border-color: rgba(255, 255, 255, 0.2);
+    transition: none;
 }
 
 .game p {
